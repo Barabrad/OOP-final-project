@@ -1,0 +1,7 @@
+[Gathering];hostEmail;location;invites (email_1,...,email_n,);date (MM/dd/yyyy);timeStart (HH:mm);timeEnd (HH:mm);formality;needsGifts (true/false);
+[CateredGathering];hostEmail;location;invites (email_1,...,email_n,);date (MM/dd/yyyy);timeStart (HH:mm);timeEnd (HH:mm);formality;needsGifts (true/false);isCatered (true/false);foodTheme;hasDessert (true/false);
+[Potluck];hostEmail;location;invites (email_1,...,email_n,);date (MM/dd/yyyy);timeStart (HH:mm);timeEnd (HH:mm);formality;needsGifts (true/false);theme;
+[Celebration];hostEmail;location;invites (email_1,...,email_n,);date (MM/dd/yyyy);timeStart (HH:mm);timeEnd (HH:mm);formality;reason;isCatered (true/false);foodTheme;hasDessert (true/false);celebrants (name_1,...,name_n,);
+[Birthday];hostEmail;location;invites (email_1,...,email_n,);date (MM/dd/yyyy);timeStart (HH:mm);timeEnd (HH:mm);formality;reason;isCatered (true/false);foodTheme;hasDessert (true/false);celebrants (name_1,...,name_n,);ages (int_1,...,int_n,);theme;
+[Graduation];hostEmail;location;invites (email_1,...,email_n,);date (MM/dd/yyyy);timeStart (HH:mm);timeEnd (HH:mm);formality;reason;isCatered (true/false);foodTheme;hasDessert (true/false);celebrants (name_1,...,name_n,);schoolPrev;schoolNext;
+[Wedding];hostEmail;location;invites (email_1,...,email_n,);date (MM/dd/yyyy);timeStart (HH:mm);timeEnd (HH:mm);formality;reason;isCatered (true/false);foodTheme;hasDessert (true/false);celebrants (name_1,...,name_n,);hasEntertainment (true/false);childrenAllowed (true/false)
